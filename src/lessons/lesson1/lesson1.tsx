@@ -19,12 +19,15 @@ import CurrencyExchangeContainer from '../../containers/CurrencyExchangeContaine
 // Dispatch
 // https://react-redux.js.org/using-react-redux/connect-mapdispatch
 
+// JS_#09 2021-05-30
+// https://www.youtube.com/watch?v=r4bJbzlIlNA&list=PLbLBXDhswD1dtWULFSobOc7JOpUaCAwB7&index=11&t=2138s
+
 const Lesson1: React.FunctionComponent = () => {
     return (
-    <React.Fragment>
-        <CurrencyExchangeContainer />
-    </React.Fragment>
-  );
+        <>
+            <CurrencyExchangeContainer/>
+        </>
+    );
 };
 
 export default Lesson1;
